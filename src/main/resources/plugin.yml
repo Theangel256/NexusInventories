@@ -1,10 +1,10 @@
-name: AetherUI
-version: 1.0-SNAPSHOT
-main: com.theangel256.aetherui.Main
+name: NexusInventories
+version: ${project.version}
+main: com.theangel256.nexusinventories.Main
 api-version: 1.20
 authors: [Theangel256]
 description: A scalable GUI framework.
 commands:
-  aetherui:
+  nexusinventories:
     description: Opens the demo GUI
-    usage: /aetherui
+    usage: /nexusinventories
