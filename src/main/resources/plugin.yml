@@ -1,6 +1,6 @@
 name: NexusInventories
 version: ${project.version}
-main: com.theangel256.nexusinventories.Main
+main: theangel256.nexusinventories.Main
 api-version: 1.20
 authors: [Theangel256]
 description: A scalable GUI framework.

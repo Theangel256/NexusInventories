@@ -10,7 +10,6 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("NexusInventories has been enabled!");
         UpdateChecker checker = new UpdateChecker(this, 68770);
         try {
             if (checker.checkForUpdates(this)) {
@@ -21,10 +20,5 @@ public class Main extends JavaPlugin {
         }
         GuiManager.getInstance().init(this);
         getCommand("nexusinventories").setExecutor(new TestCommand());
-    }
-
-    @Override
-    public void onDisable() {
-        getLogger().info("NexusInventories has been disabled!");
     }
 }
